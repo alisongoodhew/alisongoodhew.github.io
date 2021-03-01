@@ -1,0 +1,339 @@
+@charset "utf-8";
+
+/* Stylesheet for Portfolio
+	
+	Author: Alison Goodhew
+	Date started: 10/18/2019
+	File name: css_styles.css
+
+
+
+/* Body Styles */
+
+body {
+
+	height: auto;
+
+}
+
+
+#gridsite {
+	-moz-grid-template-columns: 1fr 1fr 1fr;
+	-moz-grid-template-rows: 1fr 1fr;
+	-moz-webkit-grid-column-gap: 8px;
+	-moz-webkit-grid-row-gap: 8px;
+	-webkit-grid-template-columns: 1fr 1fr 1fr;
+	-webkit-grid-template-rows: 1fr 1fr;
+	-webkit-grid-column-gap: 8px;
+	-webkit-grid-row-gap: 8px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	column-gap: 8px;
+	row-gap: 8px;
+	margin: 10px;
+
+}
+
+
+#footer {
+	
+	display: block;
+	width: 100%;
+	clear: both;
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+	
+
+	#gridsite {
+		
+		-moz-grid-template-columns: auto;
+		-moz-grid-template-rows: 1fr 1fr;
+		-moz-grid-column-gap: 5px;
+		-moz-grid-row-gap: 5px;
+		-webkit-grid-template-columns: auto;
+		-webkit-grid-template-rows: 1fr 1fr;
+		-webkit-grid-column-gap: 5px;
+		-webkit-column-row-gap: 5px;
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: 1fr 1fr;
+		column-gap: 5px;
+		row-gap: 5px;
+
+	}
+
+
+	body > header {
+		
+		font-size: 29px;
+	
+	}
+
+
+	#menu ul li {
+
+		list-style-type: none;
+		padding: 5px;
+		text-align: left;
+	
+	}
+	
+	
+	/* Homepage */
+	
+	#gridsite #section1 {
+	
+		
+		display: grid;
+		-moz-grid-row: 1 / span 2;
+		-moz-grid-column: 1 / span 2;
+		-webkit-grid-row: 1 / span 2;
+		-webkit-grid-column: 1 / span 2;
+		grid-row: 1 / span 2;
+		grid-column: 1 / span 2;
+	
+	
+	}
+	
+	#photo {
+	
+		display: none;
+	
+	}
+	
+	
+	
+	
+	/* Contact Info */
+	
+	#contactInfo {
+	
+		display: grid;
+		-moz-grid-row: 1 / span 2;
+		-moz-grid-column: 1 / 1;
+		-webkit-grid-row: 1 / span 2;
+		-webkit-grid-column: 1 / 1;
+		grid-row: 1 / span 2;
+		grid-column: 1 / 1;
+	
+	
+	}
+	
+
+	/* My Goals */
+	
+	#shortterm {
+	
+		display: grid;
+		-moz-grid-row: 1 / 1;
+		-moz-grid-column: 1 / 1;
+		-webkit-grid-row: 1 / 1;
+		-webkit-grid-column: 1 / 1;
+		grid-row: 1 / 1;
+		grid-column: 1 / 1;
+		
+	}
+	
+	#long-term {
+	
+		display: grid;
+		-moz-grid-row: 2 / 2;
+		-moz-grid-column: 1 / 1;
+		-webkit-grid-row: 2 / 2;
+		-webkit-grid-column: 1 / 1;
+		grid-row: 2 / 2;
+		grid-column: 1 / 1;
+	
+	}
+
+	/* My Skills */
+	
+	#Genskills {
+	
+		display: grid;
+		-moz-grid-row: 2 / 2;
+		-moz-grid-column: 1 / 1;
+		-webkit-grid-row: 2 / 2;
+		-webkit-grid-column: 1 / 1;
+		grid-row: 2 / 2;
+		grid-column: 1 / 1;
+	
+	}
+	
+	#ITskills {
+	
+		display: grid;
+		-moz-grid-row: 1 / 1;
+		-moz-grid-column: 1 / 1;
+		-webkit-grid-row: 1 / 1;
+		-webkit-grid-column: 1 / 1;
+		grid-row: 1 / 1;
+		grid-column: 1 / 1;
+	
+	}
+
+	/* My Resume */
+	
+	#resume h1 {
+	
+		font-size: 27px;
+	
+	}
+
+	#resume h2 {
+	
+		font-size: 22px;
+		
+	}
+	
+	#resume h3 {
+	
+		font-size: 20px;
+	
+	}
+
+}	
+
+
+
+@media screen and (min-width: 481px) {
+	
+	/* Homepage */
+	
+	#gridsite, #section1 {
+	
+		display: grid;
+		-moz-grid-row: 1 / span 2;
+		-moz-grid-column: 2 / span 3;
+		-webkit-grid-row: 1 / span 2;
+		-webkit-grid-column: 2 / span 3;
+		grid-row: 1 / span 2;
+		grid-column: 2 / span 3;
+		
+	}
+	
+	#photo {
+	
+		display: grid;
+		-moz-grid-row: 1 / span 2;
+		-moz-grid-column: 1 / 1;
+		-webkit-grid-row: 1 / span 2;
+		-webkit-grid-column: 1 / 1;
+		grid-row: 1 / span 2;
+		grid-column: 1 / 1;
+	
+	}
+	
+	
+	
+	#section1 > p {
+	
+		border: none;
+	
+	}
+	
+	
+	/* Contact Info Page */
+	
+	#contactInfo {
+	
+		display: grid;
+		-moz-grid-row: 1 / span 2;
+		-moz-grid-column: 1 / span 3;
+		-webkit-grid-row: 1 / span 2;
+		-webkit-grid-column: 1 / span 3;
+		grid-row: 1 / span 2;
+		grid-column: 1 / span 3;
+	
+	}
+	
+	
+	
+	/* Goals Page */
+	
+	
+	#shortterm {
+		
+		display: grid;
+		-moz-grid-row: 1 / 1;
+		-moz-grid-column: 1 / span 3;
+		-webkit-grid-row: 1 / 1;
+		-webkit-grid-column: 1 / span 3;
+		grid-row: 1 / 1;
+		grid-column: 1 / span 3;
+		
+	}
+	
+	
+	#longterm {
+		display: grid;
+		-moz-grid-row: 2 / 2;
+		-moz-grid-column: 1 / span 3;
+		-webkit-grid-row: 2 / 2;
+		-webkit-grid-column: 1 / span 3;
+		grid-row: 2 / 2;
+		grid-column: 1 / span 3;
+	}
+	
+	
+	/* Skills Site */
+	
+	#Genskills {
+		display: grid;
+		-moz-grid-row: 1 / 1;
+		-moz-grid-column : 1 / span 3;
+		-webkit-grid-row: 1 / 1;
+		-webkit-grid-column : 1 / span 3;
+		grid-row: 1 / 1;
+		grid-column : 1 / span 3;
+	
+	}
+
+	#ITskills {
+		display: grid;
+		-moz-grid-row:  2 / 2;
+		-moz-grid-column: 1 / span 3;
+		-webkit-grid-row:  2 / 2;
+		-webkit-grid-column: 1 / span 3;
+		grid-row:  2 / 2;
+		grid-column: 1 / span 3;
+	
+	}
+	
+	
+
+	/*Menu Styles */
+	
+	
+	#menu ul li:hover ul li {
+		display: block;
+
+	}
+	
+	
+	nav > ul {
+		
+		display: flex;
+	
+	}
+	
+	
+	nav li {
+	
+		flex: 1 1;
+		
+	
+	}
+
+
+}
+
+
+
+
+
