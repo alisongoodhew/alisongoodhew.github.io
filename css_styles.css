@@ -74,20 +74,7 @@ footer > p {
 
 }
 
-photo {
 
-	border-radius: 10px;
-
-}
-
-
-
-#photo img {
-	
-	max-height: 500px;
-	width: auto;
-
-}
 
 
 
@@ -201,6 +188,11 @@ photo {
 	margin-top: 0px;
 	border-bottom: 1px solid white;
 
+}
+
+#ITskills {
+	margin-bottom: 15px;
+	
 }	
 
 
@@ -235,6 +227,11 @@ photo {
 	
 }
 
+#resume ul {
+	
+	margin-bottom: 20px;
+
+}
 
 #resume ul li p {
 
