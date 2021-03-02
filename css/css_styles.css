@@ -74,11 +74,22 @@ footer > p {
 
 }
 
+#section1 h3 {
+	font-size: 29px;
+}
+
+#section1 p {
+
+	font-size: 18px;
+
+}
+
 #section1 a {
 
 	color: rgba(195,65,65,1);
 	text-decoration: none;
 	font-weight: black;
+	font-size: 18px;
 	
 }
 
@@ -102,7 +113,7 @@ footer > p {
 	padding: 10px;
 	margin-bottom: 17px;
 	font-size: 25px;
-	color: rgba(50,50,50,1);
+	color: rgba(15,15,15,1);
 
 }
 
@@ -128,7 +139,7 @@ footer > p {
 	
 	list-style-type: circle;
 	padding-bottom: 5px;
-	color: rgba(50,50,50,1);
+	color: rgba(15,15,15,1);
 
 }
 
@@ -167,7 +178,7 @@ footer > p {
 /* Skills Page Styles */
 
 
-#Genskills, #ITskills {
+#ITskills, #Genskills {
 
 	background-color: rgba(220,220,235,0.9);
 	padding: 10px;
@@ -182,37 +193,47 @@ footer > p {
 
 }
 
-#Genskills, #ITskills, h1{
+#ITskills h1{
 	
 	color: rgba(50,85,50,1);
 	padding-top: 5px;
 	font-weight: lighter;
 	
-}	
+}
 
-
-#Genskills, #ITskills, h2, p {
-
-	color: rgba(50,50,50,1);
-
+#Genskills h1{
+	
+	color: rgba(50,85,50,1);
+	padding-top: 5px;
+	font-weight: lighter;
+	
 }
 
 
-
-
-#Genskills, #ITskills, h2 {
+/* Issues with assigning styles to both sections at once - assign separately for now */
+#ITskills h2 {
 
 	margin-bottom: 0px;
 	font-size: 16px;
 
 }
 
-#Genskills #ITskills, p {
+#Genskills h2 {
+
+	margin-bottom: 0px;
+	font-size: 16px;
+
+}
+
+
+
+#ITskills, #Genskills p {
 	
 	margin-top: 0px;
 	border-bottom: 1px solid white;
-
+	color: rgba(15,15,15,1);
 }
+
 
 #ITskills {
 	margin-bottom: 15px;
@@ -254,7 +275,7 @@ footer > p {
 
 #resume h4 {
 	
-	color: rgba(50,50,50,1);
+	color: rgba(15,15,15,1);
 }
 
 #resume ul {
@@ -266,7 +287,7 @@ footer > p {
 #resume ul li {
 
 	font-size: 16px;
-	color: rgba(50,50,50,1);
+	color: rgba(15,15,15,1);
 
 
 	
