@@ -19,7 +19,7 @@ header {
 
 body {
 
-	background-image: url(flowerfield1.jpg); /* Photo by Alison Goodhew */
+	background-image: url(../assets/flowerfield1.jpg); /* Photo by Alison Goodhew */
 	font-family: 'Abahdi Extra Light', calibri, sans-serif;
 	font-weight: lighter;
 	margin: 20px;
@@ -74,6 +74,14 @@ footer > p {
 
 }
 
+#section1 a {
+
+	color: rgba(195,65,65,1);
+	text-decoration: none;
+	font-weight: black;
+	
+}
+
 
 
 
@@ -82,13 +90,11 @@ footer > p {
 
 #contactInfo {
 
-	background-color: rgba(210,200,210,0.9);
+	background-color: rgba(240,240,245,0.9);
 	border-radius: 10px;
 	padding: 15px;
 
 }
-
-
 
 
 #contactInfo li {
@@ -96,7 +102,7 @@ footer > p {
 	padding: 10px;
 	margin-bottom: 17px;
 	font-size: 25px;
-	color: white;
+	color: rgba(50,50,50,1);
 
 }
 
@@ -114,14 +120,23 @@ footer > p {
 #shortterm, #longterm, h3 {
 
 	font-weight: lighter;
+	color: rgba(50,85,50,1);
 
 }
 
 #shortterm #longterm, ul {
 	
 	list-style-type: circle;
+	padding-bottom: 5px;
+	color: rgba(50,50,50,1);
 
 }
+
+#shortterm #longterm, li {
+
+	padding-bottom: 3px;
+}
+
 
 #shortterm #longterm, h3 {
 
@@ -167,12 +182,21 @@ footer > p {
 
 }
 
-
-#Genskills, #ITskills, h1 {
-
+#Genskills, #ITskills, h1{
+	
+	color: rgba(50,85,50,1);
 	padding-top: 5px;
 	font-weight: lighter;
+	
+}	
+
+
+#Genskills, #ITskills, h2, p {
+
+	color: rgba(50,50,50,1);
+
 }
+
 
 
 
@@ -213,7 +237,7 @@ footer > p {
 
 	font-size: 35px;
 	text-align: center;
-	color: black;
+	color: rgba(50,85,50,1);
 
 	
 }
@@ -224,7 +248,13 @@ footer > p {
 	font-weight: bolder;
 	background-color: rgba(220,220,235,0.9);
 	margin-top: 0px;
+	color: rgba(50,85,50,1);
 	
+}
+
+#resume h4 {
+	
+	color: rgba(50,50,50,1);
 }
 
 #resume ul {
@@ -233,10 +263,11 @@ footer > p {
 
 }
 
-#resume ul li p {
+#resume ul li {
 
 	font-size: 16px;
-	font-style: italic;
+	color: rgba(50,50,50,1);
+
 
 	
 }

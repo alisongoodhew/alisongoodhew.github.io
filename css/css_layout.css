@@ -102,9 +102,7 @@ body {
 	
 	#photo {
 	
-		display: block;
-		margin-right: auto;
-		margin-left: auto;
+		display: none;
 		width: 50%;
 	}
 	
