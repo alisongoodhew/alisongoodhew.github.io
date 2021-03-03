@@ -93,6 +93,35 @@ footer > p {
 	
 }
 
+#photo {
+	
+	padding: 15px;
+	
+}
+
+/*Following code solution from https://stackoverflow.com/questions/11478067/replacement-for-center */
+/*********/
+#photo {
+
+	text-align: center;
+	height: 495px;
+	border-radius: 10px;
+}
+
+#innerPhoto {
+	
+	margin: auto;
+	text-align: left;
+	
+}
+/*********/
+
+#photo img {
+	
+	border-radius: 10px;
+}
+
+
 
 
 
