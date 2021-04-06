@@ -1,0 +1,82 @@
+<!doctype html>
+
+<head>
+<!-- 
+	Final Project Portfolio website
+	My Work Samples
+	Author: Alison Goodhew
+	Date started: 10/18/2019
+	filename: my_goals.html
+ -->
+ 
+	<meta charset="utf-8" />
+	<meta name="viewport"  content="width=device-width, initial-scale=1" />
+	<meta name ="keywords" content="programming, portfolio, NSCC, Alison, Goodhew, goals" />
+	<title>My Work Samples</title>
+	<link href="./css_reset.css" rel="stylesheet" />
+	<link href="./css/css_styles.css" rel="stylesheet" />
+	<link href="./css/css_layout.css" rel="stylesheet" />
+	
+	
+</head>
+
+
+<body>
+
+	<header>My Work Samples</header>
+	
+	<div id="flexsite">	
+		<section id="menu">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="contact_info.html">My Contact Info</a></li>
+					<li><a href="my_goals.html">My Goals</a></li>
+					<li><a href="my_skills.html">My Skills</a></li>
+					<li><a href="my_worksamples.html">My Work Samples</a></li>
+					<li><a href="my_resume.html">My Resume</a></li>
+				</ul>
+			</nav>
+		</section>
+	</div>
+	
+	<div id="gridsite">
+
+		<section id="workSample1">
+			<h3>Work Sample: Quick Quiz Android App</h3>
+			<section id="workSamplePic">
+				<img src="./assets/QuickQuiz2s.png" alt="screenshot of Quick Quiz App"/>
+				<img src="./assets/QuickQuiz3s.png" alt="screenshot of Quick Quiz App"/>
+				<img src="./assets/QuickQuiz4s.png" alt="screenshot of Quick Quiz App"/>
+			</section>
+			<p>As an assignment for my Android Development course, I was asked to create an app that took a .txt file containing a comma-separated list of questions and answers and transform it into a
+			multiple-choice quiz that allows the user to choose the correct answer to a question from a randomly-generated list of responses. The app also keeps track of the user name, number of questions
+			remaining in the quiz, and the user's current score.</p>
+
+			<p>This app required a broad range of Android knowledge, from using hashmaps to create the required collection of answers and questions to creating intents to carry user info between activities. Ensuring that the
+			selection of possible answers was random enough while still containing the correct answer required some creativity. I researched various randomizing functions before settling on shuffle()
+			as the cleanest option. For each question, I created an arrayList containing all possible answers, located the correct answer for the question using the hashmap, then removed it from the arrayList. From there,
+			it was as simple as shuffling the arrayList and adding three other answers as options to display. Looking at it now, the code seems
+			simple, but at the time I was very proud of making it work with (what I thought was) such elegant code.</p>
+			<p>Creativity is important when working in Android, both for thinking about the logic of the program and for designing the UI. I am pretty pleased with the color palette of this app, but in the future I would like
+			to smooth out the rest of the UI. Better buttons and a more interesting scoring layout would also improve the feel.</p>
+		</section>
+
+		<section id="workSample2">
+			<h3>Work Sample: Bus Tracker - GeoJSON and Leaflet.js</h3>
+			<section id="workSamplePic2">
+				<img src="./assets/Sample1.PNG" alt="screenshot of Bus Tracker"/>
+				<img src="./assets/Sample2.PNG" alt="screenshot of Bus Tracker"/>
+				<img src="./assets/Sample3.PNG" alt="screenshot of Bus Tracker"/>
+		</section>
+			<p>This app was created to fetch real-time tracking data from the HRM Bus API, convert it into GeoJSON format and use Leaflet.js to map the results, real-time, on a map. The original goal of the app was to track
+			all buses on routes 1-10, but I altered the original design to show only the routes that I used to use at my old job. The user can select a marker to determine route number and the current speed of
+			the selected bus.</p>
+
+			<p>This project needed an understanding of JSON and GeoJSON data and how to use fetch and array functions. We were not allowed to use loops of any kind for this app, so I needed to learn GeoJSON functions like 
+			OnEachFeature to add multiple customized popups to the appropriate layers.</p>
+			<p>This is one of the most practical assignments that I completed at NSCC. It taught me how to handle, format and transform GeoJSON data. More importantly, it opened up the world of API's to me, and what they can do with
+			relatively simple code. I'm currently working on another project using a different JSON API, and I can see that understanding how to work with the data available out there is one of the most important things that I've learned at NSCC.</p>
+		</section>
+	</div>
+</body>

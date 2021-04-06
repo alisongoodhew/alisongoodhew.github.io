@@ -20,6 +20,8 @@ header {
 body {
 
 	background-image: url(../assets/flowerfield1.jpg); /* Photo by Alison Goodhew */
+	background-repeat: repeat;
+	background-attachment: fixed;
 	font-family: 'Abahdi Extra Light', calibri, sans-serif;
 	font-weight: lighter;
 	margin: 20px;
@@ -268,6 +270,71 @@ footer > p {
 	margin-bottom: 15px;
 	
 }	
+
+
+/*Work Sample Page Styles */
+
+#workSample1 #workSample2 {
+
+	padding-top: 5px;
+	font-weight: lighter;
+	
+}
+
+#workSample1, #workSample2, h3 {
+
+	font-weight: lighter;
+	color: rgba(50,85,50,1);
+
+}
+
+#workSample1, #workSample2, p {
+	
+	font-size: 25;
+
+}
+
+#workSample1 {
+
+	background-color: rgba(240,240,245,0.9);
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5px;
+
+}
+
+#workSample2 {
+
+	background-color: rgba(245,240,240,0.9);
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Resume Page Styles */

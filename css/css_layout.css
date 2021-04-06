@@ -152,10 +152,10 @@ body {
 	
 	}
 
-	/* My Skills */
+	/* My Skills and My Work Samples*/
 	
 	
-	#ITskills {
+	#ITskills, #workSample1 {
 	
 		display: grid;
 		-moz-grid-row: 1 / 1;
@@ -169,9 +169,7 @@ body {
 
 
 
-
-
-	#Genskills {
+	#Genskills, #workSample2 {
 	
 		display: grid;
 		-moz-grid-row: 2 / 2;
@@ -182,7 +180,8 @@ body {
 		grid-column: 1 / 1;
 	
 	}
-	
+
+
 
 
 	/* My Resume */
@@ -211,6 +210,24 @@ body {
 
 @media screen and (min-width: 481px) {
 	
+	#photo {
+	
+		display: grid;
+		-moz-grid-row: 1 / span 2;
+		-moz-grid-column: 1 / 1;
+		-webkit-grid-row: 1 / span 2;
+		-webkit-grid-column: 1 / 1;
+		grid-row: 1 / span 2;
+		grid-column: 1 / 1;
+	
+	}
+	
+	
+	
+	
+	
+	
+	
 	/* Homepage */
 	
 	#gridsite, #section1 {
@@ -224,19 +241,6 @@ body {
 		grid-column: 2 / span 3;
 		
 	}
-	
-	#photo {
-	
-		display: grid;
-		-moz-grid-row: 1 / span 2;
-		-moz-grid-column: 1 / 1;
-		-webkit-grid-row: 1 / span 2;
-		-webkit-grid-column: 1 / 1;
-		grid-row: 1 / span 2;
-		grid-column: 1 / 1;
-	
-	}
-	
 	
 	
 	#section1 > p {
@@ -289,7 +293,7 @@ body {
 	}
 	
 	
-	/* Skills Site */
+	/* Skills Page */
 	
 	#Genskills {
 		display: grid;
@@ -313,6 +317,38 @@ body {
 	
 	}
 	
+	/* Work Samples Page */
+	
+	
+	#workSample1 {
+		
+		display: grid;
+		-moz-grid-row: 1 / 1;
+		-moz-grid-column: 1 / span 3;
+		-webkit-grid-row: 1 / 1;
+		-webkit-grid-column: 1 / span 3;
+		grid-row: 1 / 1;
+		grid-column: 1 / span 3;
+		
+	}
+	
+	
+	#workSample2 {
+		display: grid;
+		-moz-grid-row: 2 / 2;
+		-moz-grid-column: 1 / span 3;
+		-webkit-grid-row: 2 / 2;
+		-webkit-grid-column: 2 / span 3;
+		grid-row: 2 / 2;
+		grid-column: 1 / span 3;
+	}
+	
+	#workSamplePic, #workSamplePic2 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		size: relative;
+	}
 	
 
 	/*Menu Styles */
@@ -342,7 +378,7 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-	#photo {
+	#photo, #workSamplePic, #workSamplePic2 {
 		display: none;
 		
 	}
